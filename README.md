@@ -13,15 +13,20 @@ Appium is cross-platform, and supports a lot of mobile platforms (iOS mobile, An
   - For Windows:
     - from control panel, edit environment variables window and add the following
     ```console
-    JAVA_HOME=C:\Program Files\Java\jdk1.8.0_45```
+    JAVA_HOME=C:\Program Files\Java\jdk1.8.0_45
+    ```
+    
     ```console
-    PATH = C:\Program Files\Java\jdk1.8.0_45\bin;```
+    PATH = C:\Program Files\Java\jdk1.8.0_45\bin;
+    ```
   - For MacOS:
-    - in ~/.bash_profile
+    - in your ~/.bash_profile
     ```bash
-    export JAVA_HOME= '/usr/libexec/java_home'```
+    export JAVA_HOME= '/usr/libexec/java_home'
+    ```
     ```bash
-    export PATH = $PATH:$JAVA_HOME/bin```
+    export PATH = $PATH:$JAVA_HOME/bin
+    ```
 3. Install [Android SDK](https://developer.android.com/studio/index.html)
   - Use SDK Manager to install necessary packages, such as Android SDK Build Tool, Android versions and their APIs, etc.
 4. Set ANDROID_HOME in environment variables, and reference it in PATH environment variable.
@@ -45,7 +50,7 @@ I will give just a high level summary of the procedure of how to use Appium for 
 3. I connect the Android device via USB to my laptop
   - Run 'adb devices' in the shell to double check that it is properly connected
 4. Install the Appium Client Python library via:
-  ```python
+  ```bash
   pip install Appium-Python-Client
   ```
 5. Start coding in Python!
