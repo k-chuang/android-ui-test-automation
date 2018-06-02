@@ -14,17 +14,12 @@ Appium is cross-platform, and supports a lot of mobile platforms (iOS mobile, An
     - from control panel, edit environment variables window and add the following
     ```console
     JAVA_HOME=C:\Program Files\Java\jdk1.8.0_45
-    ```
-    
-    ```console
     PATH = C:\Program Files\Java\jdk1.8.0_45\bin;
     ```
   - For MacOS:
     - in your ~/.bash_profile
     ```bash
     export JAVA_HOME= '/usr/libexec/java_home'
-    ```
-    ```bash
     export PATH = $PATH:$JAVA_HOME/bin
     ```
 3. Install [Android SDK](https://developer.android.com/studio/index.html)
